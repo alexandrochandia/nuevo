@@ -1,0 +1,61 @@
+name: vmf_sweden_swipe
+description: VMF Sweden spiritual community app with Tinder-like swipe system powered
+  by Supabase.
+
+environment:
+  sdk: '^3.8.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  agora_rtc_engine: ^6.3.2
+  animate_do: ^3.3.4
+  audioplayers: ^5.2.1
+  cached_network_image: ^3.3.0
+  cloud_firestore: ^5.4.4
+  firebase_auth: ^5.6.2
+  firebase_core: ^3.15.1
+  firebase_storage: ^12.3.4
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.3.0
+  flutter_card_swiper: ^7.0.2
+  font_awesome_flutter: ^10.6.0
+  geolocator: ^10.1.0
+  get: ^4.6.6
+  go_router: ^14.6.2
+  google_maps_flutter: ^2.5.0
+  google_sign_in: ^6.2.2
+  image_picker: ^1.0.4
+  intl: ^0.20.2
+  lottie: ^3.1.2
+  percent_indicator: ^4.2.3
+  permission_handler: ^11.1.0
+  provider: ^6.1.1
+  share_plus: ^10.0.2
+  shared_preferences: ^2.2.2
+  shimmer: ^3.0.0
+  supabase_flutter: ^2.0.0
+  url_launcher: ^6.2.1
+  uuid: ^4.2.1
+  video_player: ^2.8.1
+  wakelock_plus: ^1.2.8
+  webview_flutter: ^4.4.2
+  youtube_player_flutter: ^9.0.3
+  zego_uikit_prebuilt_live_streaming: ^3.14.2
+  zego_uikit_signaling_plugin: ^2.0.0
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/videos/
+    - assets/fonts/
+    - assets/flags/
+    - assets/icons/
